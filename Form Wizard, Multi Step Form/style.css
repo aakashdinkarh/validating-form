@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+form {
+    background-color: #efefef;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 500px;
+    height: 400px;
+    position: relative;
+}
+label {
+    display: block;
+    margin: 10px auto;
+}
+input {
+    padding: 5px;
+    width: 100%;
+    font-size: large;
+    border-radius: 2px;
+    border: none;
+}
+input.invalid {
+    background-color: #fcb9b9;
+}
+.tab {
+    display: none;
+}
+button {
+    border: 1px solid #ff8d00;
+    background-color: #4dc5d2;
+    padding: 10px;
+    color: white;
+    font-size: large;
+
+}
+
+
+/* Steps or dots at the bottom of form */
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(108, 108, 108);
+    border: none;
+    border-radius: 50%;
+    opacity: 0.5;
+    display: inline-block;
+}
+.step.active {
+    opacity: 1;
+}
+.step.finish {
+    background-color: #00ff43;
+}
